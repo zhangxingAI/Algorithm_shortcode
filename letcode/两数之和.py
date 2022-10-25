@@ -30,3 +30,4 @@ class Solution:
                 return [hashtable[target - num], i]
             hashtable[nums[i]] = i #hash表中没有重复的key，会将重复的key更新为最近添加的value
         return
+
