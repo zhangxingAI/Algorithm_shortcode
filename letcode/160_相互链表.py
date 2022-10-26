@@ -8,7 +8,7 @@ class Solution:
     #         s.add(p)
     #         p = p.next
     #     while q:
-    #         if q is in s:
+    #         if q in s:
     #             return q
     #         q = q.next
     #     return None
