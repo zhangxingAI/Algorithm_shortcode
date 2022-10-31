@@ -9,7 +9,7 @@ class Solution:
     #         p = p.next
     #     while q:
     #         if q in s:
-    #             return q
+    #             return qc c
     #         q = q.next
     #     return None
 
