@@ -14,7 +14,7 @@ for _ in range(b):
 queue = [(0, -1)]
 ans = []
 path = [-1] * n
-front, rear = 0, 1
+front = 1
 Flag =True
 while Flag:
     u, father = queue[front]
@@ -28,14 +28,11 @@ while Flag:
             if i != father and i not in block:
                 queue.append((i, u))
                 path[i] = u
-                rear += 1
             elif len(node[u]) == 1:
-                rear += 1
                 Flag = False
                 p = u
                 while p != -1:
                     ans.append(str(p))
-                    # print(ans)
                     p = path[p]
                 ans.reverse()
                 print("->".join(ans))
