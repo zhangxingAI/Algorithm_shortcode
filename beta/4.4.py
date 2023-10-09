@@ -1,7 +1,7 @@
 mod = 10**9 +7
 def max_digit(n):
     return int(max(str(n)))
-def sum_of_max_digit(l,r):
+def sum_of_max_digit(l,r):`
     total_pre = 0
     curr = 1
 
